@@ -35,7 +35,7 @@
 
   <section class="lang" id="ar" dir="rtl" lang="ar">
     <h2>سياسة الخصوصية</h2>
-    <p class="meta">تاريخ السريان: 14 أكتوبر 2026 · المطوّر: NemoDroid</p>
+    <p class="meta">تاريخ السريان: 23 نوفمبر 2026 · المطوّر: NemoDroid</p>
 
     <p>«توابل» لعبة ألغاز لترتيب البهارات مناسبة لجميع الأعمار. يمكنك اللعب بدون حساب وبدون أن نجمع عنك أي معلومات شخصية. تسجيل الدخول بحساب Google اختياري ويخدم فقط حفظ تقدّمك لاسترجاعه على جهاز جديد. توضّح هذه السياسة ما يحدث للبيانات.</p>
 
@@ -49,7 +49,7 @@
       <li><strong>ما نجمعه عند تسجيل الدخول:</strong> (أ) بيانات حساب Google: الاسم والبريد الإلكتروني وصورة الملف الشخصي ومعرّف الحساب (لا نرى كلمة مرور Google أبدًا). (ب) نسخة من تقدّمك في اللعبة (المستويات والنجوم والعملات والإنجازات والتتابع اليومي).</li>
       <li><strong>لماذا:</strong> لحفظ تقدّمك واسترجاعه على جهاز جديد، ولإبقائه متزامنًا على الأجهزة التي تسجّل الدخول عليها.</li>
       <li><strong>من يعالجها:</strong> تُخزَّن وتُعالَج عبر خدمات Google Firebase (تسجيل الدخول وقاعدة البيانات). لا نبيع هذه البيانات ولا نشاركها مع أي جهة أخرى، إلا إذا فرض القانون ذلك.</li>
-      <li>تبدأ اللعبة خدمات Google Firebase على جهازك فقط عندما تفتح الإعدادات أو إذا كنت قد سجّلت الدخول من قبل. وقبل أن تسجّل الدخول لا ترسل اللعبة أي معلومات شخصية عنك.</li>
+      <li>قبل أن تسجّل الدخول لا ترسل اللعبة أي معلومات شخصية عنك (انظر البند 6 عن إشعارات أخبار اللعبة).</li>
     </ul>
 
     <h3>3. الاحتفاظ بالبيانات وحذفها</h3>
@@ -68,31 +68,39 @@
     <h3>5. إشعار التذكير باللعب (اختياري)</h3>
     <p>يمكن للعبة أن ترسل <strong>إشعارًا واحدًا</strong> بعد المدة التي تختارها (3 أو 6 أو 9 أو 12 أو 24 ساعة من آخر مرة لعبت فيها) لتذكيرك باللعب. هذه الميزة <strong>مغلقة</strong> حتى تفعّلها من الإعدادات ← «التذكير باللعب». في Android 13 وما بعده تطلب اللعبة إذنك قبل إرسال أي إشعار. يُضبط التذكير على جهازك فقط ولا يُرسل أي بيانات إلى أي جهة، ويمكنك إيقافه في أي وقت من الإعدادات أو من إعدادات الإشعارات في الهاتف. اللعبة لا تتضمن مشتريات داخل التطبيق.</p>
 
-    <h3>6. المشاركة</h3>
-    <p>زر «مشاركة» يفتح قائمة المشاركة في جهازك لإرسال نص نتيجتك إلى تطبيق تختاره أنت. اللعبة لا ترسل أي شيء بنفسها.</p>
-
-    <h3>7. ما لا نفعله</h3>
+    <h3>6. إشعارات أخبار اللعبة</h3>
     <ul>
-      <li>لا نبيع أي بيانات ولا نستخدمها للإعلانات المخصّصة.</li>
-      <li>لا نجمع أي معلومات شخصية عن اللاعبين الذين لا يسجّلون الدخول.</li>
-      <li>لا توجد محادثات أو ملفات شخصية عامة أو محتوى يرفعه اللاعبون.</li>
-      <li>لا نستخدم أدوات تحليلات أو تتبّع خاصة بنا.</li>
-      <li>لا نطلب أذونات الموقع أو الكاميرا أو الميكروفون أو جهات الاتصال. الإذن الوحيد الذي قد تطلبه اللعبة هو إذن عرض الإشعارات (Android 13 وما بعده)، وفقط إذا فعّلت التذكير.</li>
+      <li>قد نرسل من وقت لآخر رسائل قصيرة عن اللعبة نفسها، مثل مستويات جديدة أو أحداث. لا تحتوي هذه الرسائل على إعلانات.</li>
+      <li>لهذا الغرض تبدأ اللعبة خدمة Google Firebase Cloud Messaging عند فتحها، وتشترك في «قناة» حسب لغة اللعبة (عربي أو إنجليزي)، ومن سجّل الدخول يشترك أيضًا في قناة للاعبين المسجّلين. نرسل الرسالة للقناة كلها، ولا نستطيع إرسال رسالة للاعب بعينه.</li>
+      <li>تُنشئ Firebase على جهازك معرّفًا تقنيًا لتوصيل الرسائل (رمز التسجيل ومعرّف التثبيت). لا نخزّن هذا المعرّف ولا نربطه باسمك أو بحسابك ولا نستخدمه لأي غرض آخر. تعالجه Google وفق <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">سياسة خصوصية Google</a>.</li>
+      <li>في Android 13 وما بعده لا يظهر أي إشعار إلا بإذنك. ويمكنك إيقاف «أخبار اللعبة» في أي وقت من إعدادات الإشعارات في الهاتف دون أن يتأثر التذكير باللعب.</li>
     </ul>
 
-    <h3>8. الأطفال</h3>
-    <p>«توابل» لعبة لجميع الأعمار بمن فيهم الأطفال، وتعمل بدون أي حساب. لا نجمع أي معلومات شخصية ما لم تسجّل الدخول. تسجيل الدخول بحساب Google اختياري ويظهر في الإعدادات فقط، ويخدم حفظ التقدّم فقط. إذا كنت وليّ أمر وتعتقد أن طفلك سجّل الدخول، يمكنك حذف الحساب من اللعبة (الإعدادات ← حذف حسابي) أو من صفحة حذف الحساب أو بمراسلتنا وسنحذف بياناته.</p>
+    <h3>7. المشاركة</h3>
+    <p>زر «مشاركة» يفتح قائمة المشاركة في جهازك لإرسال نص نتيجتك إلى تطبيق تختاره أنت. اللعبة لا ترسل أي شيء بنفسها.</p>
 
-    <h3>9. التغييرات على هذه السياسة</h3>
+    <h3>8. ما لا نفعله</h3>
+    <ul>
+      <li>لا نبيع أي بيانات ولا نستخدمها للإعلانات المخصّصة.</li>
+      <li>لا نجمع أي معلومات شخصية عن اللاعبين الذين لا يسجّلون الدخول. الشيء الوحيد هو المعرّف التقني الذي تحتاجه Firebase لتوصيل أخبار اللعبة (البند 6).</li>
+      <li>لا توجد محادثات أو ملفات شخصية عامة أو محتوى يرفعه اللاعبون.</li>
+      <li>لا نستخدم أدوات تحليلات أو تتبّع خاصة بنا.</li>
+      <li>لا نطلب أذونات الموقع أو الكاميرا أو الميكروفون أو جهات الاتصال. الإذن الوحيد الذي قد تطلبه اللعبة هو إذن عرض الإشعارات (Android 13 وما بعده)، للتذكير باللعب وأخبار اللعبة.</li>
+    </ul>
+
+    <h3>9. الأطفال</h3>
+    <p>«توابل» لعبة لجميع الأعمار بمن فيهم الأطفال، وتعمل بدون أي حساب. لا نجمع أي معلومات شخصية ما لم تسجّل الدخول، وأخبار اللعبة رسائل عن اللعبة فقط بلا إعلانات. تسجيل الدخول بحساب Google اختياري ويظهر في الإعدادات فقط، ويخدم حفظ التقدّم فقط. إذا كنت وليّ أمر وتعتقد أن طفلك سجّل الدخول، يمكنك حذف الحساب من اللعبة (الإعدادات ← حذف حسابي) أو من صفحة حذف الحساب أو بمراسلتنا وسنحذف بياناته.</p>
+
+    <h3>10. التغييرات على هذه السياسة</h3>
     <p>قد نحدّث هذه السياسة عند تغيّر اللعبة. سننشر النسخة الجديدة في هذه الصفحة مع تاريخ سريان جديد.</p>
 
-    <h3>10. تواصل معنا</h3>
+    <h3>11. تواصل معنا</h3>
     <p>NemoDroid — البريد الإلكتروني: <a href="mailto:nemonegm@gmail.com">nemonegm@gmail.com</a></p>
   </section>
 
   <section class="lang" id="en" dir="ltr" lang="en">
     <h2>Privacy Policy</h2>
-    <p class="meta">Effective date: 14 October 2026 · Developer: NemoDroid</p>
+    <p class="meta">Effective date: 23 November 2026 · Developer: NemoDroid</p>
 
     <p>TAWABEL (توابل) is a spice-sorting puzzle game for all ages. You can play without an account and without us collecting any personal information about you. Signing in with Google is optional and only backs up your progress so you can restore it on a new phone. This policy explains what happens to data.</p>
 
@@ -106,7 +114,7 @@
       <li><strong>What we collect when you sign in:</strong> (a) your Google account details: name, email address, profile picture and account ID (we never see your Google password); (b) a copy of your game progress (levels, stars, coins, achievements and the daily streak).</li>
       <li><strong>Why:</strong> to back up your progress and restore it on a new phone, and to keep it in step on the devices you sign in on.</li>
       <li><strong>Who processes it:</strong> it is stored and processed with Google Firebase services (sign-in and database). We do not sell this data or share it with anyone else, unless the law requires it.</li>
-      <li>The game starts Google Firebase services on your device only when you open Settings, or if you have signed in before. Before you sign in, the game sends no personal information about you.</li>
+      <li>Before you sign in, the game sends no personal information about you (see section 6 about game news notifications).</li>
     </ul>
 
     <h3>3. Keeping and deleting your data</h3>
@@ -125,25 +133,33 @@
     <h3>5. Play reminder notification (optional)</h3>
     <p>The game can send <strong>one notification</strong>, after the time you choose (3, 6, 9, 12 or 24 hours after you last played), to remind you to play. This feature is <strong>off</strong> until you turn it on in Settings → "Play reminder". On Android 13 and later the game asks for your permission before it can show any notification. The reminder is scheduled on your device only and no data is sent anywhere. You can turn it off at any time in Settings or in your phone's notification settings. The game has no in-app purchases.</p>
 
-    <h3>6. Sharing</h3>
-    <p>The Share button opens your device's share sheet so you can send your result text to an app you choose. The game itself doesn't send anything.</p>
-
-    <h3>7. What we don't do</h3>
+    <h3>6. Game news notifications</h3>
     <ul>
-      <li>We don't sell any data and we don't use it for personalized ads.</li>
-      <li>We don't collect personal information about players who don't sign in.</li>
-      <li>There are no chats, public profiles or player-uploaded content.</li>
-      <li>We don't use analytics or tracking tools of our own.</li>
-      <li>We don't ask for location, camera, microphone or contacts permissions. The only permission the game may ask for is to show notifications (Android 13 and later), and only if you turn the reminder on.</li>
+      <li>From time to time we may send short messages about the game itself, such as new levels or events. These messages never contain ads.</li>
+      <li>For this the game starts Google Firebase Cloud Messaging when it opens and joins a "topic" for the game's language (Arabic or English); players who are signed in also join a topic for signed-in players. A message goes to a whole topic: we cannot send a message to one particular player.</li>
+      <li>Firebase creates a technical identifier on your device to deliver messages (a registration token and installation ID). We do not store it, link it to your name or account, or use it for anything else. Google processes it under the <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a>.</li>
+      <li>On Android 13 and later no notification is shown without your permission. You can turn "Game news" off at any time in your phone's notification settings, without affecting the play reminder.</li>
     </ul>
 
-    <h3>8. Children</h3>
-    <p>TAWABEL is made for all ages, children included, and works without any account. We collect no personal information unless you sign in. Google sign-in is optional, is found only in Settings, and only backs up progress. If you are a parent or guardian and believe your child signed in, you can delete the account in the game (Settings → Delete my account), on our account deletion page, or email us and we will delete their data.</p>
+    <h3>7. Sharing</h3>
+    <p>The Share button opens your device's share sheet so you can send your result text to an app you choose. The game itself doesn't send anything.</p>
 
-    <h3>9. Changes to this policy</h3>
+    <h3>8. What we don't do</h3>
+    <ul>
+      <li>We don't sell any data and we don't use it for personalized ads.</li>
+      <li>We don't collect personal information about players who don't sign in. The only thing is the technical identifier Firebase needs to deliver game news (section 6).</li>
+      <li>There are no chats, public profiles or player-uploaded content.</li>
+      <li>We don't use analytics or tracking tools of our own.</li>
+      <li>We don't ask for location, camera, microphone or contacts permissions. The only permission the game may ask for is to show notifications (Android 13 and later), for the play reminder and game news.</li>
+    </ul>
+
+    <h3>9. Children</h3>
+    <p>TAWABEL is made for all ages, children included, and works without any account. We collect no personal information unless you sign in, and game news is about the game only, with no ads. Google sign-in is optional, is found only in Settings, and only backs up progress. If you are a parent or guardian and believe your child signed in, you can delete the account in the game (Settings → Delete my account), on our account deletion page, or email us and we will delete their data.</p>
+
+    <h3>10. Changes to this policy</h3>
     <p>We may update this policy when the game changes. The new version will be posted on this page with a new effective date.</p>
 
-    <h3>10. Contact us</h3>
+    <h3>11. Contact us</h3>
     <p>NemoDroid — Email: <a href="mailto:nemonegm@gmail.com">nemonegm@gmail.com</a></p>
   </section>
 </main>
